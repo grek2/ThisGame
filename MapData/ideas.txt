@@ -1,0 +1,25 @@
+
+1l1l1l1l11l1l1l1l1l1l1l1l1l1l1l1ll1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l1l
+
+done
+1. collisions
+2. less light far from player
+5. moving objects
+
+kinda done
+4. health/energy system
+6. switch between levels
+
+not done
+3. player can pick up objects
+
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+
+
