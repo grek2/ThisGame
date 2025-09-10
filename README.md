@@ -2,6 +2,7 @@
 
 Might make it more polished, might not.
 If you keep randomly dying that's not a bug you're just bad at the game.
+
 I used some C graphics library and not win32 because unlike SOMEONE I like to sleep sometimes and not being in pain most of the time.
 
 
