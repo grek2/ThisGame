@@ -12,7 +12,7 @@ int gridAccess(vector<vector<int>>& map, int x, int y)
 int randomLevel() 
 {
     srand(time(NULL));
-    return (rand() % 6) + 1;         
+    return (rand() % 7) + 1;         
 }
 
 int distanceMan(int x1, int x2, int y1, int y2){
@@ -85,14 +85,26 @@ int main()
 {
     int attempts = 0;
     int steps = 0;
-    int level = randomLevel();
+    int level;
+	
+    cout << "Enter level number:\n";
+    cin >> level;
+
+    if (level > 7 && level < 1)
+    {
+        level = randomLevel(); // why it not work
+    }
+    else 
+    {
+        
+    }
 
     int START_X; 
     int START_Y;
     int END_X; 
     int END_Y;
 
-    //original level positions- start 2, 6; end 5, 0
+    
     //CHANGE THESE TO CHANGE START AND END POSITIONS
 
     switch (level)
@@ -132,6 +144,11 @@ int main()
             START_Y = 2;
             END_X = 2; 
             END_Y = 0;
+        case 7:
+            START_X = 4; 
+            START_Y = 3;
+            END_X = 7; 
+            END_Y = 5;
 
     }
 
