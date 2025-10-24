@@ -1,4 +1,4 @@
-# I did thing
+# Hello why are you here
 
 run this monstrosity to compile it you might need to do some path stuff but i forgot. 
 
