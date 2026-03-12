@@ -1,3 +1,3 @@
-Run this monstrosity to compile the project. If it doesn't work, go do something else. If you are really dying to play or contribute to "Super Ocean Adventure 4001", send me an email or something.
+Run this monstrosity to compile the project. If it doesn't work, go do something else. If you are really dying to play or contribute to "Super Ocean Adventure 4001", send me an email or something, as I could easily remake this if anyone actually wanted me to.
 
 g++ -o main src/*.cpp -Wall -std=c++14 -D_DEFAULT_SOURCE -Wno-missing-braces -g -O0 C:/raylib/raylib/src/raylib.rc.data -I. -IC:/raylib/raylib/src -IC:/raylib/raylib/src/external -L. -LC:/raylib/raylib/src -LC:/raylib/raylib/src -lraylib -lopengl32 -lgdi32 -lwinmm -DPLATFORM_DESKTOP
